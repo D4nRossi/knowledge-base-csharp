@@ -1,0 +1,11 @@
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/bin/Debug/net8.0/KnowledgeBase.Domain.deps.json
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/bin/Debug/net8.0/KnowledgeBase.Domain.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/bin/Debug/net8.0/KnowledgeBase.Domain.pdb
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.AssemblyInfoInputs.cache
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.AssemblyInfo.cs
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.csproj.CoreCompileInputs.cache
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/refint/KnowledgeBase.Domain.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.pdb
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/ref/KnowledgeBase.Domain.dll

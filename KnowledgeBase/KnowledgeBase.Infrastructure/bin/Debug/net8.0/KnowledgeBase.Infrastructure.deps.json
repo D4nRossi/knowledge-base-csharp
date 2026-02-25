@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KnowledgeBase.Infrastructure/1.0.0": {
+        "dependencies": {
+          "KnowledgeBase.Application": "1.0.0",
+          "KnowledgeBase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "KnowledgeBase.Infrastructure.dll": {}
+        }
+      },
+      "KnowledgeBase.Application/1.0.0": {
+        "dependencies": {
+          "KnowledgeBase.Domain": "1.0.0"
+        },
+        "runtime": {
+          "KnowledgeBase.Application.dll": {}
+        }
+      },
+      "KnowledgeBase.Domain/1.0.0": {
+        "runtime": {
+          "KnowledgeBase.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KnowledgeBase.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KnowledgeBase.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KnowledgeBase.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

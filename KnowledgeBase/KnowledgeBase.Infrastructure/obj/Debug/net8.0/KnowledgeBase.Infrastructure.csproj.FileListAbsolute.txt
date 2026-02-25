@@ -1,0 +1,17 @@
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Infrastructure.deps.json
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Infrastructure.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Infrastructure.pdb
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Application.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Domain.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Application.pdb
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/bin/Debug/net8.0/KnowledgeBase.Domain.pdb
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.csproj.AssemblyReference.cache
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.AssemblyInfoInputs.cache
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.AssemblyInfo.cs
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.csproj.CoreCompileInputs.cache
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.csproj.CopyComplete
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/refint/KnowledgeBase.Infrastructure.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.pdb
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/ref/KnowledgeBase.Infrastructure.dll
