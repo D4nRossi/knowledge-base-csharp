@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Jl+KJS63DJaHZEvrmQS/A/92nmxNE1/JNIY1cfsCK7rIkWMnfDfTlb/9J20Jkjnw2U5WzYwlXyag81zU9r2fkg==",
+  "dgSpecHash": "qqwIAFq70ipUw/++yNAAYo4A84ZXrn5qq1jolHmh/ozlyVdv550/68AEVL/ei7IVVJ71CAPEAtk4h9kwyzbdIg==",
   "success": true,
   "projectFilePath": "/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/KnowledgeBase.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/daniel/.nuget/packages/mediatr/14.0.0/mediatr.14.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.0/microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.identitymodel.abstractions/8.14.0/microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.14.0/microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.identitymodel.logging/8.14.0/microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/microsoft.identitymodel.tokens/8.14.0/microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "/home/daniel/.nuget/packages/system.diagnostics.diagnosticsource/10.0.0/system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

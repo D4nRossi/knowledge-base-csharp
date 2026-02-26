@@ -13,3 +13,4 @@
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Application/obj/Debug/net8.0/refint/KnowledgeBase.Application.dll
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Application/obj/Debug/net8.0/KnowledgeBase.Application.pdb
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Application/obj/Debug/net8.0/ref/KnowledgeBase.Application.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Application/obj/Debug/net8.0/KnowledgeBase.Application.sourcelink.json

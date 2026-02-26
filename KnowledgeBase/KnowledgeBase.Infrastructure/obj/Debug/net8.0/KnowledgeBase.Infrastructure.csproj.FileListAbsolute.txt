@@ -15,3 +15,4 @@
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/refint/KnowledgeBase.Infrastructure.dll
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.pdb
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/ref/KnowledgeBase.Infrastructure.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Infrastructure/obj/Debug/net8.0/KnowledgeBase.Infrastructure.sourcelink.json

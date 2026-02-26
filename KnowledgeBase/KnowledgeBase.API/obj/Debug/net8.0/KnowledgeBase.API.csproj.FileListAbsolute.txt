@@ -37,3 +37,15 @@
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/obj/Debug/net8.0/KnowledgeBase.API.pdb
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/obj/Debug/net8.0/KnowledgeBase.API.genruntimeconfig.cache
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/obj/Debug/net8.0/ref/KnowledgeBase.API.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/obj/Debug/net8.0/KnowledgeBase.API.sourcelink.json
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/FluentMediator.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/FluentMediator.Microsoft.Extensions.DependencyInjection.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/MediatR.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/MediatR.Contracts.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.API/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll

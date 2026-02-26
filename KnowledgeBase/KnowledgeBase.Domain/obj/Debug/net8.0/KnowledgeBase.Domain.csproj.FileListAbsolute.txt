@@ -9,3 +9,4 @@
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/refint/KnowledgeBase.Domain.dll
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.pdb
 /home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/ref/KnowledgeBase.Domain.dll
+/home/daniel/projects/knowledge-base-csharp/KnowledgeBase/KnowledgeBase.Domain/obj/Debug/net8.0/KnowledgeBase.Domain.sourcelink.json
