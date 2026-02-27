@@ -43,4 +43,17 @@ public class Chunk
         ArgumentNullException.ThrowIfNullOrEmpty(vectorId, nameof(vectorId));
         VectorId = vectorId;
     }
+
+    public static Chunk Reconstitute(Guid id, Guid documentId, string content, int chunkIndex, string? vectorId)
+    {
+        return new Chunk
+        {
+            Id = id,
+            DocumentId = documentId,
+            Content = content,
+            ChunkIndex = chunkIndex,
+            VectorId = vectorId,
+            CreatedAt = DateTime.UtcNow
+        };
+    }
 }

@@ -50,4 +50,17 @@ public class Document
         ArgumentNullException.ThrowIfNull(chunk, nameof(chunk));
         _chunks.Add(chunk);
     }
+    
+    //Reconstitute é usado exclusivamente pela Infrastructure pra recriar entidades a partir do banco. Não valida porque os dados já foram validados quando foram salvos
+    public static Document Reconstitute(Guid id, string title, string source, string content, DateTime createdAt)
+    {
+        return new Document
+        {
+            Id = id,
+            Title = title,
+            Source = source,
+            Content = content,
+            CreatedAt = createdAt
+        };
+    }
 }
