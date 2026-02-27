@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KnowledgeBase.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+627ab61185b464e419993a73957ca62f6e646e3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3a03157f94a0c3f83ca60d1c697cf7c19dd0966")]
 [assembly: System.Reflection.AssemblyProductAttribute("KnowledgeBase.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KnowledgeBase.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

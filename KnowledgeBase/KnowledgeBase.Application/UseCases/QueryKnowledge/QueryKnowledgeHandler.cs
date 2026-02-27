@@ -40,7 +40,7 @@ public class QueryKnowledgeHandler : IRequestHandler<QueryKnowledgeQuery, QueryR
         var queryEmbedding = await _embeddingService.GenerateAsync(request.Question, cancellationToken);
         
         //Busca os chunks mais similares no Qdrant
-        var chunkIds = (await _vectorStore.SerachAsync(queryEmbedding, request.TopK, cancellationToken)).ToList();
+        var chunkIds = (await _vectorStore.SearchAsync(queryEmbedding, request.TopK, cancellationToken)).ToList();
         _logger.LogInformation("Found {Count} relevant chunks", chunkIds.Count);
         
         //Busca o conteúdo dos chunks no Cassandra

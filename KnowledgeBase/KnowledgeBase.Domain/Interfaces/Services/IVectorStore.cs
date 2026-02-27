@@ -11,5 +11,5 @@ public interface IVectorStore
     Task<string> IndexAsync(Guid chunkId, float[] embedding, CancellationToken cancellationToken = default);
     
     //Busca os N chunks mais similares ao embedding da query
-    Task<IEnumerable<Guid>> SerachAsync(float[] queryEmbedding, int topK = 5, CancellationToken cancellationToken = default);
+    Task<IEnumerable<Guid>> SearchAsync(float[] queryEmbedding, int topK = 5, CancellationToken cancellationToken = default);
 }
