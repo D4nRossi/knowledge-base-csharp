@@ -122,6 +122,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
