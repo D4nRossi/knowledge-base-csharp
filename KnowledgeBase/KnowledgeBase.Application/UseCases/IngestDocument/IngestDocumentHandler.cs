@@ -40,14 +40,14 @@ public class IngestDocumentHandler : IRequestHandler<IngestDocumentCommand, Docu
 
     public async Task<DocumentDto> Handle(IngestDocumentCommand request, CancellationToken cancellationToken)
     {
-        _logger.LogInformation("Starting ingestion for document: {Title}", request.Title);
+        _logger.LogInformation("Starting ingestion for document: {DocumentTitle}", request.Title);
         
         //Cria a entidade Document via factory method do Domain
         var document = Document.Create(request.Title, request.Source, request.Content);
         
         //Divide o conteúdo em chunks
         var chunkContents = _chunkerService.Chunk(request.Content).ToList();
-        _logger.LogInformation("Document split into {Count} chunks}", chunkContents.Count);
+        _logger.LogInformation("Document split into {Count} chunks", chunkContents.Count);
         
         //Pra cada chunk: gere embedding, indexa no Qdrant, cria entidade Chunk
         for (var i = 0; i < chunkContents.Count; i++)

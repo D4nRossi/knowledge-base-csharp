@@ -31,6 +31,7 @@ public class Chunk
         {
             Id = Guid.NewGuid(),
             DocumentId = documentId,
+            Content = content,  // estava faltando essa linha
             ChunkIndex = chunkIndex,
             CreatedAt = DateTime.UtcNow
         };

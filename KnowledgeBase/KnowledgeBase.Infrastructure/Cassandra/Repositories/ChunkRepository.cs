@@ -20,7 +20,7 @@ public class ChunkRepository : IChunkRepository
     {
         var statement =
             await _session.PrepareAsync(
-                "SELECT document_id, chunk_index, id, content, vector_id, createdAt FROM chunks WHERE document_id = ?");
+                "SELECT document_id, chunk_index, id, content, vector_id, created_at FROM chunks WHERE document_id = ?");
         
         var result = await _session.ExecuteAsync(statement.Bind(documentId));
 
@@ -35,26 +35,27 @@ public class ChunkRepository : IChunkRepository
 
     public async Task SaveManyAsync(IEnumerable<Chunk> chunks, CancellationToken cancellationToken = default)
     {
-        var statement = await _session.PrepareAsync(
-            @"INSERT INTO chunks (document_id, chunk_index, id, content, vector_id, createdAt) VALUES (?,?,?,?,?,?)");
-        
-        //BatchStatement agrupa múltiplos inserts numa operação atômica
-        //Ideal pra salvar todos os chunks de um documento de uma vez
-        var batch = new BatchStatement();
+        var statement = await _session.PrepareAsync(@"
+        INSERT INTO chunks (document_id, chunk_index, id, content, vector_id, created_at)
+        VALUES (?, ?, ?, ?, ?, ?)");
 
         foreach (var chunk in chunks)
         {
-            batch.Add(statement.Bind(
+            // Log pra confirmar que o content existe antes de salvar
+            _logger.LogDebug("Saving chunk {Index} with content length {Length}",
+                chunk.ChunkIndex, chunk.Content?.Length ?? 0);
+
+            var bound = statement.Bind(
                 chunk.DocumentId,
                 chunk.ChunkIndex,
                 chunk.Id,
-                chunk.Content,
+                 chunk.Content,
                 chunk.VectorId,
-                chunk.CreatedAt
-            ));
+                chunk.CreatedAt);
+
+            await _session.ExecuteAsync(bound);
         }
-        
-        await _session.ExecuteAsync(batch);
+
         _logger.LogDebug("Saved {Count} chunks", chunks.Count());
     }
 }

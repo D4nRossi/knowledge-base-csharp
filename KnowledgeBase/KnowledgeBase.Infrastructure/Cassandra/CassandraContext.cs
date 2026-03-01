@@ -50,7 +50,7 @@ public class CassandraContext : IDisposable
                 id UUID PRIMARY KEY,
                 title TEXT,
                 source TEXT,
-                contnet TEXT,
+                content TEXT,
                 created_at TIMESTAMP
             )
         ");
