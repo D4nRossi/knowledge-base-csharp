@@ -37,6 +37,29 @@ services:
       timeout: 5s
       retries: 3
 
+  postgres:
+    image: postgres:16-alpine
+    container_name: kb-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      #POSTGRES_DB cria o banco automaticamente no primeiro boot
+      #Em produção, essas credenciais viriam de secrets (Azure Key Vault, etc)
+      - POSTGRES_DB=knowledge_base
+      - POSTGRES_USER=kb_user
+      - POSTGRES_PASSWORD=kb_local_dev
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      #pg_isready verifica se o PostgreSQL esta aceitando conexões
+      #Diferente do Cassandra, PostgreSQL sobe em segundos
+      test: ["CMD-SHELL", "pg_isready -U kb_user -d knowledge_base"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+
   # Ollama roda fora do compose (instalado direto no host)
   # porque precisa de acesso à GPU se disponível.
   # A aplicação acessa via http://host.docker.internal:11434 ou localhost.
@@ -45,4 +68,6 @@ volumes:
   cassandra_data:
     driver: local
   qdrant_data:
+    driver: local
+  postgres_data:
     driver: local
